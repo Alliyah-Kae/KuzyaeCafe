@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href ="about.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Inconsolata:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+
+   body {
+    background-color: black;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 15px;
+  }
+
+  .navbar .navbar-brand,
+  .navbar .navbar-nav .nav-link {
+    color: black !important;
+  }
+
+  .navbar-brand {
+    font-family: 'Crimson Text', serif;
+  }
+
+  @media screen and (max-width: 768px) {
+    /* Navbar styles */
+    .navbar .navbar-collapse {
+      margin-top: 10px;
+    }
+  }
+
+  .hero {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+  
+  .hero img {
+    max-width: 1200%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  }
+
+
+  .hero h1 {
+      color:white;
+      font-size: 700%;
+      text-align: center;
+      margin-left: 450px;
+      font-family: 'baskerville', serif;
+      font-weight: bold;
+  }
+
+  .text1 {
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  .para1 {
+    color: white;
+    margin-left: 200px;
+    margin-right: 100px;
+    font-family: 'Inconsolata', monospace;
+
+  }
+  
+  .table {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 410px;
+    width: 50%;
+    font-family: 'IBM Plex Sans', sans-serif;
+  
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .table {
+      margin-left: 200px;
+      margin-right: 20px;
+      width: auto;
+    }
+  }
+
+  .text2 {
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  .para2 {
+    color: white;
+    margin-left: 200px;
+    margin-right: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-family: 'Inconsolata', monospace;
+
+  }
+  
+
+  .para2 img {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+  .para2 img {
+    width: auto;
+  }
+}
+
+
+  .text3 {
+    color: white;
+    margin-left: 685px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    font-family: 'Libre Baskerville', serif;
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .text3 {
+        margin-left: 300px;
+        margin-right: 20px;
+        width: auto;
+      
+    }
+
+    }
+
+  .linksgif {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 715px; 
+  }
+
+  @media screen and (max-width: 768px) {
+  .linksgif {
+    margin-left: 300px;
+    margin-right: 20px;
+    width: auto;
+  
+}
+  }
+  
+  .grid {
+    display: flex;
+  }
+  
+  .grid > * {
+    margin-right: 50px;
+  }
+  
+  .grid > *:last-child {
+    margin-right: 0;
+  }
+  
+  
+  .linksgif img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+
+  }
+
+  .footer {
+    margin-top: 200px;
+    background-color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+    padding: 20px;
+  }
+  
+  .footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .footer input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .footer .column {
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: top;
+  }
+  
+  .footer .column h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+</style>
+
+ 
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">KUZYAE Cafe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" target="_blank">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html" target="_blank"> Products </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" target="_blank">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+          <img src="https://cdn.discordapp.com/attachments/1104748838595592264/1123874982607474698/aboutus.png" class="img-fluid">
+  </section>
+
+  <section class = "text1">
+  <div class="container">
+  <h1>What's KUZYAE Cafe? </h1>
+</section>
+
+<section class = "para1">
+  <div class="container">
+  <p>Kuzyae Cafe is part of the Kuzyae conglomerate, who own various multi-industries business entities. It is founded by Alliyah Kae Lim, a young web developer and designer who has always dreamed of achieving great things.
+    To be specific Kuzyae conglomerate owns over 10 business entities: </p>
+</section>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Number</th>
+      <th scope="col">Company Name</th>
+      <th scope="col">Sector</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Kuzyae Jackets</td>
+      <td>Clothing</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Kuzyae Apparels</td>
+      <td>Clothing</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Kuzyae Cafe</td>
+      <td>Food</td>
+    </tr>
+
+    <tr>
+      <th scope="row">4</th>
+      <td>Kuzyae Restaurant</td>
+      <td>Food</td>
+    </tr>
+
+    <tr>
+      <th scope="row">5</th>
+      <td>Kuzyae Night Bar</td>
+      <td>Food and Alcohol</td>
+    </tr>
+
+    <tr>
+      <th scope="row">6</th>
+      <td>Kuzyae Mart</td>
+      <td>Shopping</td>
+    </tr>
+
+    <tr>
+      <th scope="row">7</th>
+      <td>Kuzyae Online Shop</td>
+      <td>Shopping</td>
+    </tr>
+
+    <tr>
+      <th scope="row">8</th>
+      <td>Kuzyae Tech</td>
+      <td>Technology</td>
+    </tr>
+
+    <tr>
+      <th scope="row">9</th>
+      <td>Kuzyae Accomodations</td>
+      <td>Hotel</td>
+    </tr>
+
+    <tr>
+      <th scope="row">10</th>
+      <td>TBA</td>
+      <td>TBA</td>
+    </tr>
+  </tbody>
+</table>
+
+<section class = "text2">
+  <div class="container">
+  <h1>What does KUZYAE Cafe offer? </h1>
+</section>
+
+<section class = "para2">
+  <div class="container">
+  <p>At our esteemed coffee shop, we pride ourselves on offering an exceptional selection of premium coffee with a distinctively rich taste and delightful aroma. Our commitment to quality is evident in every cup we serve, crafted with meticulous attention to detail to ensure a truly remarkable coffee experience. </p> <b></b>
+
+  <p>We believe in the artistry of coffee, and our menu showcases an extensive range of options and varieties to cater to the diverse preferences of our valued customers. From expertly brewed single-origin coffees to signature blends, each sip promises a harmonious fusion of flavors that will tantalize your taste buds and leave you craving for more. </p> <b></b>
+
+  <img src = "https://c0.wallpaperflare.com/preview/35/289/270/barista-coffee-crema-cup.jpg" class="img-fluid" > 
+    
+  <p>Furthermore, we understand the importance of affordability without compromising on excellence. We have thoughtfully designed our pricing structure to make our exceptional coffee accessible to all coffee enthusiasts. Our dedication to offering an outstanding coffee experience at a reasonable cost sets us apart, allowing you to indulge in the pleasure of premium coffee without breaking the bank. </p> <b></b>
+    
+  <p> Visit our coffee shop and immerse yourself in an atmosphere that celebrates the passion and craftsmanship behind every cup. Our highly skilled baristas are devoted to perfecting the art of coffee-making and are always eager to guide you through our menu, ensuring you find the ideal coffee that matches your preferences. </p> <b></b>
+    
+  <p>Whether you are seeking a revitalizing morning brew, a serene afternoon pick-me-up, or a cozy evening indulgence, our coffee shop stands as the ultimate destination for coffee lovers. We invite you to embark on a journey of unparalleled taste, aroma, and variety, as we endeavor to redefine your coffee experience, one cup at a time.</p>
+  <img src = "https://c1.wallpaperflare.com/preview/788/768/1017/coffee-book-caffeine-notebook.jpg" class="img-fluid" > 
+
+  </div>
+  </section>
+
+  <section class = "text3">
+  <div class="container">
+  <h1>Contact Us</h1>
+</section>
+
+<section class="linksgif">
+  <div class="grid text-center">
+    <div class="facebooklink"><a href="https://www.facebook.com" target="_blank">
+      <img src="https://cdn.discordapp.com/attachments/1104748838595592264/1123875405296844820/facebook.gif"></a></div>
+    <div class="youtubelink"> <a href="https://www.youtube.com/watch?v=nknDqFENQxk" target="_blank">
+      <img src="https://cdn.discordapp.com/attachments/1104748838595592264/1123875388096008283/youtube.gif">
+    </a></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <h4>About Us</h4>
+        <p>Website Made by Alliyah Kae Lim</p>
+      </div>
+      <div class="column">
+        <h4>Feedback</h4>
+        <input type="email" placeholder="Enter your feedback">
+        <h4>Email Address</h4>
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit" onclick="displayMessage()">Submit</button>
+      </div>
+      <div class="column">
+        <h4>Contact Us</h4>
+        <p>01234567891</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function displayMessage() {
+    alert("Thanks for your feedback!");
+  }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+ 

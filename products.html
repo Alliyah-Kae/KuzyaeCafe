@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href ="products.css">
+ 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+
+    body {
+    background-color: black;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 15px;
+  }
+
+  .navbar .navbar-brand,
+  .navbar .navbar-nav .nav-link {
+    color: black !important;
+  }
+
+  .navbar-brand {
+    font-family: 'Crimson Text', serif;
+  }
+
+  @media screen and (max-width: 768px) {
+    /* Navbar styles */
+    .navbar .navbar-collapse {
+      margin-top: 10px;
+    }
+  }
+  
+  .hero {
+      margin-top: 20px;
+      margin-bottom: 50px;
+      margin-left: 150px;
+      margin-right: 90px;
+      display: flex;
+      align-items: center;
+     justify-content: center;
+     
+    }
+
+    .hero img {
+      max-width: 1200%;
+      height: auto;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+     justify-content: center;
+    }
+
+
+    .hero h1 {
+        color:white;
+        font-size: 700%;
+        text-align: center;
+        margin-left: 450px;
+        font-family: 'baskerville', serif;
+        font-weight: bold;
+    }
+
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    
+    .horizontal-cards {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .card {
+      width: 18rem;
+      margin-right: 1rem;
+      
+    }
+    
+    .card img {
+      height: auto; 
+      width: auto;
+      object-fit: cover;
+    }
+    
+    .card:last-child {
+      margin-right: 0;
+}
+
+.footer {
+  margin-top: 200px;
+  background-color: white;
+  font-family: "Lucida Console", Monaco, monospace;
+  padding: 20px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.footer .column {
+  display: inline-block;
+  width: 33.33%;
+  vertical-align: top;
+}
+
+.footer .column h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+    
+    
+   </style>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">KUZYAE Cafe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" target="_blank">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html" target="_blank"> Products </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" target="_blank">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+          <img src="https://cdn.discordapp.com/attachments/1104748838595592264/1123876339611598898/products.png" class="img-fluid">
+      
+  </section>
+
+
+  <div class="card-container">
+    <div class="horizontal-cards">
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/5a/2e/e6/5a2ee622a567cf364754e055c8fcde7c.jpg" class="img-fluid" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Kuzyae's Special Iced Coffee</h4>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/69/ef/ed/69efed084f9a94a16f79d9d78df87431.jpg" class="img-fluid" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Frappuccino</h4>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/f5/88/63/f58863bb5767d389b00fe5f7361bebd6.jpg" class="img-fluid" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Espresso</h4>
+        </div>
+      </div>
+    </div>
+  
+    <div class="horizontal-cards">
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/1f/61/d0/1f61d0885258b4d607862fdee206c770.jpg" class="img-fluid" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Chocolate</h4>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/236x/fc/4f/12/fc4f12edc7d569b815417e613d4f8ac3.jpg" class="img-fluid" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Teas</h4>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.pinimg.com/564x/9b/f1/68/9bf168f1073ac7bd08299bcb1ef092f8.jpg" class="img-fluid" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Desserts</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <h4>About Us</h4>
+          <p>Website Made by Alliyah Kae Lim</p>
+        </div>
+        <div class="column">
+          <h4>Feedback</h4>
+          <input type="email" placeholder="Enter your feedback">
+          <h4>Email Address</h4>
+          <input type="email" placeholder="Enter your email address">
+          <button type="submit" onclick="displayMessage()">Submit</button>
+        </div>
+        <div class="column">
+          <h4>Contact Us</h4>
+          <p>01234567891</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    function displayMessage() {
+      alert("Thanks for your feedback!");
+    }
+  </script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  
+  
+
+ 
+ 
